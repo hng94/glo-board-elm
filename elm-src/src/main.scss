@@ -172,13 +172,6 @@ html, body {
   float: right;
 }
 
-.add-btn {
-  visibility: hidden;
-}
-
-.add-btn::after {
-  font-family: 'Font Awesome 5 Free';
-  content: "\f067";
-  visibility: visible;
-  font-weight: 900;
+.task-edit-input {
+  margin-bottom: 10px;
 }

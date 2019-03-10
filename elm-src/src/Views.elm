@@ -11,7 +11,7 @@ import EventHelpers exposing (..)
 taskItemView : Model -> Task -> Html Msg
 taskItemView model task =
   if model.editTask == task.id then
-    div [ class "input-group"]
+    div [ class "input-group task-edit-input"]
       [ input [ class "form-control", value task.name, onInput (OnEditTaskInput task.id)] [], 
         div [ class "input-group-append"][
           button  [ class "btn btn-success btn-sm",
